@@ -5,7 +5,7 @@ How To Debug!
 1) R E M A I N C A L M
 2) GET HELP (doesn't have to be someone who knows more, a fresh pair of eyes can go a long way)
 3) TAKE A BREAK (freshen your own damn eyes)
-4) Google The Error  (list the tools you're using, list the language your using, look for someone generating the error in the same or similar context to you). 
+4) Google The Error  (list the tools you're using, list the language you're using, look for someone generating the error in the same or similar context to you). 
 5) Avoid compound errors: 
 	1)test your code as you write it.  
 	2) Consider **writing tests** for your code too! 
@@ -59,6 +59,6 @@ Ones you'll probably see less often:
 
 1. Diagram out our desired data flow with a pen and paper.  Start tracing it out with console.logs, and try to find the point where we go from having the right outputs to the wrong ones. 
 2. Check to make sure that we're actually executing the code we're expecting to: console.log just to make sure we're getting through to the blocks we should be. 
-3. talk through what *should* be happening, with a teammate or fresh pair of eyes. see if anyone can spot a logic-error.  
+3. Talk through what *should* be happening, with a teammate or fresh pair of eyes. see if anyone can spot a logic-error.  
 4. Check the docs for the technologies you're using -- do built in functions return the data you expect, in the format you expect.  
 5.  Brainstorm alternate ways to solve your problem.  What is the *goal* of your code?  If the approach you're debugging just isn't unfucking itself, could there be other ways of achieving the same goal?   
