@@ -1,6 +1,6 @@
 How To Debug! 
 
-#To Dos For All Errors#
+# To Dos For All Errors
 
 1) R E M A I N C A L M
 2) GET HELP (doesn't have to be someone who knows more, a fresh pair of eyes can go a long way)
@@ -18,9 +18,10 @@ How To Debug!
 7) Don't Fear the Error Message! They are here to help!
 
 
-##Loud Errors## -- times when we get error messages! These are the good times. The happy times. 
+## Loud Errors
+-- times when we get error messages! These are the good times. The happy times. 
 
-###To-do's for all Loud Errors:###
+### To-do's for all Loud Errors:
 1) Read the error message. R E A D I T
 2) Read the stack-trace to figure out *where* the error is being thrown.
 3) If the error is being thrown by your node modules, keep going down the stack trace to hopefully find the bit that *is* being thrown by your code (express probably does not have a bug in it).  
@@ -51,9 +52,10 @@ Ones you'll probably see less often:
 
 3. URIError: Raised when the encodeURI() or decodeURI() functions are used in an incorrect manner. (solution: use express. or koa. or hapi. or something. it's like handwashing your clothing: there are reasons you might want to be writing raw http requests, but usually you're just being silly.)
 
-##Silent Errors##  -- times when our code runs without breaking, but fails to give us the output that we want. these are the sad times. the dark times. the lonely times. 
+## Silent Errors
+-- times when our code runs without breaking, but fails to give us the output that we want. these are the sad times. the dark times. the lonely times. 
 
-###To-Do's for Silent Errors###
+### To-Do's for Silent Errors
 
 1. Diagram out our desired data flow with a pen and paper.  Start tracing it out with console.logs, and try to find the point where we go from having the right outputs to the wrong ones. 
 2. Check to make sure that we're actually executing the code we're expecting to: console.log just to make sure we're getting through to the blocks we should be. 
